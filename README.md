@@ -1,130 +1,134 @@
-🎰 PoolChain - Sistema de Sorteos Descentralizados en Web3
-License
- Blockchain Status
+<div align="center">
 
-Sistema de sorteos públicos descentralizados en blockchain opBNB
+# 🎰 PoolChain
 
-🌐 Website: poolchain.vip
-📧 Contact: 
-jose01.moreno@gmail.com
+### Sistema de Sorteos Descentralizados en opBNB
 
-📋 Descripción
-PoolChain es una plataforma descentralizada de sorteos (lottery pools) construida sobre blockchain opBNB, que permite a usuarios participar en sorteos transparentes, verificables y 100% justos mediante smart contracts.
+[![Website](https://img.shields.io/badge/Web-poolchain.vip-8b5cf6?style=for-the-badge)](https://poolchain.vip)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
+[![opBNB](https://img.shields.io/badge/Blockchain-opBNB-yellow?style=for-the-badge)](https://opbnb.bscscan.com)
+[![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.20-363636?style=for-the-badge&logo=solidity)](https://soliditylang.org)
 
-✨ Características Principales
-🔒 100% Descentralizado: Smart contracts auditables en blockchain
-🎯 Transparencia Total: Todas las transacciones verificables on-chain
-💎 9 Niveles de Participación: Desde Micro ($2) hasta Mega ($1000)
-🏆 100% de Ganadores: Todos los participantes reciben premio o devolución
-⚡ Sorteos Instantáneos: Resultados en segundos vía Chainlink VRF
-💰 Pagos en USDT: Stablecoin para estabilidad de premios
-🎮 Niveles de Participación
-Nivel	Entry	Pool Total	Participantes	Grupo A	Grupo B	Grupo C	Grupo D
-💎 Micro	$2	$200	100	10 × $5.85	20 × $2.93	30 × $1.30	40 × $0.98
-🌟 Mini	$5	$500	100	10 × $14.70	20 × $7.35	30 × $3.27	40 × $2.45
-🔷 Medium	$10	$1,000	100	10 × $29.40	20 × $14.70	30 × $6.53	40 × $4.90
-🔶 Standard	$25	$2,500	100	10 × $73.50	20 × $36.75	30 × $16.33	40 × $12.25
-💠 Premium	$50	$5,000	100	10 × $147.00	20 × $73.50	30 × $32.67	40 × $24.50
-💫 Elite	$100	$10,000	100	10 × $294.00	20 × $147.00	30 × $65.33	40 × $49.00
-⭐ VIP	$250	$25,000	100	10 × $735.00	20 × $367.50	30 × $163.33	40 × $122.50
-👑 Master	$500	$50,000	100	10 × $1,470.00	20 × $735.00	30 × $326.67	40 × $245.00
-💰 Mega	$1000	$100,000	100	10 × $2,940.00	20 × $1,470.00	30 × $653.33	40 × $490.00
-🔧 Tecnologías
-Blockchain: opBNB Testnet/Mainnet
-Smart Contracts: Solidity ^0.8.20
-Frontend: React + Vite
-Web3: wagmi + viem
-Randomness: Chainlink VRF (próximamente)
-Hosting: Vercel + IPFS
-Payments: USDT (BEP-20)
-📊 Arquitectura
-┌─────────────────────────────────────┐
-│         poolchain.vip               │
-│      (Frontend React/Vite)          │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│      Smart Contracts (opBNB)        │
-│  - PoolChainV7_6_1_Micro.sol        │
-│  - MockUSDT.sol                     │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│       Blockchain opBNB              │
-│   (Transacciones verificables)      │
-└─────────────────────────────────────┘
-🚀 Roadmap
-✅ Fase 1 - MVP (Completado)
- Smart contract Tier Micro
- Frontend básico
- Integración MetaMask
- Deploy en opBNB Testnet
- Dominio poolchain.vip
-🔄 Fase 2 - Expansión (En Progreso)
- 9 Tiers completos
- Chainlink VRF para randomness
- Sistema de supervisión de solvencia
- Auditoría de smart contracts
- Deploy en opBNB Mainnet
-📅 Fase 3 - Escalabilidad (Próximamente)
- Multi-chain support
- DAO governance
- NFT rewards
- Staking pools
-📜 Derechos de Autor y Certificación
-Autor
-Jose Moreno
-📧 
-jose01.moreno@gmail.com
+**Sorteos 100% transparentes, verificables y justos mediante Smart Contracts**
 
-Sello de Tiempo Certificado
-Fecha y Hora: 23 abril 2025 - 01:07:56 CEST
+[Sitio Web](https://poolchain.vip) • [Documentación](https://josemoreno2024.github.io/PoolChain-Docs) • [Contratos](https://testnet.opbnbscan.com/address/TU_CONTRATO)
 
-Certificado por:
-CN=CIPSC - v3.1 - Emisor de sellos electronicos cualificados de tiempo de 2048
-organizationIdentifier=VATES-B99091696
-O=Coloriuris S.L.
-L=Zaragoza, C=ES
+</div>
 
-Número de Serie: 51984623
+---
 
-Hash del Documento:
+## 🎯 ¿Qué es PoolChain?
 
-dfcb658160407767b484e198b89d7a52fc455c6711209c0629a1287b309f0f9a
-O.I.D.: 1.3.6.1.4.1.37799.1.5.7872
+PoolChain es una plataforma descentralizada de sorteos construida sobre **opBNB**, donde:
 
-Información sobre sellos: https://cipsc.coloriuris.net/tsa/
+- ✅ **100% de participantes ganan** - Todos reciben premio o devolución
+- 🔒 **Transparencia absoluta** - Contratos auditables en blockchain
+- ⚡ **Resultados instantáneos** - Sorteos ejecutados on-chain
+- 💰 **Pagos en USDT** - Estabilidad garantizada
 
-📄 Licencia
-Copyright © 2025-2026 Jose Moreno - PoolChain
+---
 
-Todos los derechos reservados.
+## 💎 Niveles de Participación
 
-Este código es propietario y confidencial. La copia, distribución, modificación o uso no autorizado de este software, a través de cualquier medio, está estrictamente prohibido sin el permiso explícito por escrito del titular de los derechos de autor.
+| Tier | Entry | Pool Total | Grupo A (10) | Grupo B (20) | Grupo C (30) | Grupo D (40) |
+|------|-------|------------|--------------|--------------|--------------|--------------|
+| 💎 **Micro** | $2 | $200 | $5.85 | $2.93 | $1.30 | $0.98 |
+| 🌟 **Mini** | $5 | $500 | $14.70 | $7.35 | $3.27 | $2.45 |
+| 🔷 **Mediano** | $10 | $1K | $29.40 | $14.70 | $6.53 | $4.90 |
+| 🔶 **Estándar** | $25 | $2.5K | $73.50 | $36.75 | $16.33 | $12.25 |
+| 💠 **Premium** | $50 | $5K | $147 | $73.50 | $32.67 | $24.50 |
+| 💫 **Élite** | $100 | $10K | $294 | $147 | $65.33 | $49 |
+| ⭐ **VIP** | $250 | $25K | $735 | $367.50 | $163.33 | $122.50 |
+| 👑 **Máster** | $500 | $50K | $1.47K | $735 | $326.67 | $245 |
+| 💰 **Mega** | $1K | $100K | $2.94K | $1.47K | $653.33 | $490 |
 
-El código fuente del proyecto es privado. Solo los smart contracts desplegados en blockchain son públicos y auditables, como corresponde a la naturaleza descentralizada del proyecto.
+> **Distribución:** 30% Grupo A | 30% Grupo B | 20% Grupo C | 20% Grupo D
 
-Para consultas sobre licencias: 
-jose01.moreno@gmail.com
+---
 
-🔗 Enlaces
-Website: poolchain.vip
-Documentación: josemoreno2024.github.io/PoolChain-Documentacion
-Contratos (opBNB Testnet): Ver en BSCScan
-⚠️ Disclaimer
-PoolChain es un proyecto experimental en desarrollo. Participa bajo tu propio riesgo. Los sorteos en blockchain pueden estar sujetos a regulaciones locales. Verifica la legalidad en tu jurisdicción antes de participar.
+## 🏗️ Arquitectura Técnica
+┌─────────────────────────┐ │ poolchain.vip │ ← Frontend React/Vite │ (Interfaz de Usuario) │ └───────────┬─────────────┘ │ ▼ ┌─────────────────────────┐ │ Smart Contracts │ ← Solidity ^0.8.20 │ • PoolChain Tiers │ │ • USDT Integration │ └───────────┬─────────────┘ │ ▼ ┌─────────────────────────┐ │ opBNB Blockchain │ ← Layer 2 BSC │ (Verificación Pública) │ └─────────────────────────┘
 
-🤝 Contacto
-Para consultas, sugerencias o reportes de seguridad:
+### Stack Tecnológico
 
-📧 Email: 
-jose01.moreno@gmail.com
+| Capa | Tecnología |
+|------|------------|
+| **Blockchain** | opBNB (Testnet/Mainnet) |
+| **Smart Contracts** | Solidity ^0.8.20 |
+| **Frontend** | React + Vite |
+| **Web3** | wagmi + viem |
+| **Payments** | USDT (BEP-20) |
+| **Hosting** | Netlify |
 
-🌐 Website: poolchain.vip
+---
 
-Construido con ❤️ por Jose Moreno
+## 🚀 Roadmap
 
-Descentralización, Transparencia, Justicia# PoolChain-Docs
-josemoreno2024.github.io/PoolChain-Docs
+### ✅ Fase 1: MVP (Completado)
+- [x] Smart Contract Tier Micro
+- [x] Frontend básico con MetaMask
+- [x] Deploy en opBNB Testnet
+- [x] Dominio poolchain.vip
+
+### 🔄 Fase 2: Expansión (En Progreso)
+- [x] 9 Tiers completos
+- [ ] Chainlink VRF para aleatoriedad verificable
+- [ ] Sistema de supervisión de solvencia
+- [ ] Auditoría profesional de contratos
+- [ ] Deploy en opBNB Mainnet
+
+### 📅 Fase 3: Escalabilidad (Q2 2026)
+- [ ] Soporte multicadena
+- [ ] Gobernanza DAO
+- [ ] Sistema de recompensas NFT
+- [ ] Stake pools para holders
+
+---
+
+## 📜 Derechos y Licencia
+
+**Copyright © 2025-2026 Jose Moreno**
+
+Este proyecto es **código propietario**. Los contratos inteligentes desplegados son públicos y auditables en blockchain (naturaleza descentralizada), pero el código fuente del frontend y backend es confidencial.
+
+**Certificación de Autoría:**
+- **Titular:** Jose Moreno
+- **Fecha Certificada:** 23 abril 2025 - 01:07:56 CEST
+- **Certificado por:** CIPSC (Coloriuris SL)
+- **Hash SHA-256:** `dfcb658160407767b484e198b89d7a52fc455c6711209c0629a1287b309f0f9a`
+
+---
+
+## 🔗 Enlaces Oficiales
+
+- 🌐 **Sitio Web:** [poolchain.vip](https://poolchain.vip)
+- 📚 **Documentación:** [PoolChain Docs](https://josemoreno2024.github.io/PoolChain-Docs)
+- ⛓️ **Contratos opBNB:** [Ver en Explorer](https://testnet.opbnbscan.com)
+- 📧 **Contacto:** jose01.moreno@gmail.com
+
+---
+
+## ⚠️ Disclaimer
+
+PoolChain es un proyecto experimental en desarrollo activo. Participa bajo tu propio riesgo. 
+
+> **Importante:** Los sorteos en blockchain pueden estar sujetos a regulaciones locales. Verifica la legalidad en tu jurisdicción antes de participar.
+
+---
+
+## 🤝 Contacto
+
+**Jose Moreno** - Founder & Developer
+
+📧 jose01.moreno@gmail.com  
+🌐 [poolchain.vip](https://poolchain.vip)
+
+---
+
+<div align="center">
+
+**Construido con ❤️ para la Web3**
+
+*Descentralización • Transparencia • Justicia*
+
+</div>
