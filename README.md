@@ -5,13 +5,13 @@
 ### Sistema de Sorteos Descentralizados en opBNB
 
 [![Website](https://img.shields.io/badge/Web-poolchain.vip-8b5cf6?style=for-the-badge)](https://poolchain.vip)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#-derechos-y-licencia)
 [![opBNB](https://img.shields.io/badge/Blockchain-opBNB-yellow?style=for-the-badge)](https://opbnb.bscscan.com)
 [![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.20-363636?style=for-the-badge&logo=solidity)](https://soliditylang.org)
 
 **Sorteos 100% transparentes, verificables y justos mediante Smart Contracts**
 
-[Sitio Web](https://poolchain.vip) • [Documentación](https://josemoreno2024.github.io/PoolChain-Docs) • [Contratos](https://testnet.opbnbscan.com/address/TU_CONTRATO)
+[Sitio Web](https://poolchain.vip) • [Documentación](https://josemoreno2024.github.io/PoolChain-Docs)
 
 </div>
 
@@ -43,6 +43,11 @@ PoolChain es una plataforma descentralizada de sorteos construida sobre **opBNB*
 | 💰 **Mega** | $1K | $100K | $2.94K | $1.47K | $653.33 | $490 |
 
 > **Distribución:** 30% Grupo A | 30% Grupo B | 20% Grupo C | 20% Grupo D
+
+---
+
+## 🏗️ Arquitectura Técnica
+
 
 ---
 
